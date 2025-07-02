@@ -3,112 +3,138 @@
 layout: home
 
 hero:
-  name: "Cepro.ai Documentation"
-  text: "Frontend Application Guide"
-  tagline: "Comprehensive documentation for the Vue.js-powered Cepro.ai dashboard"
+  name: "Cepro.ai"
+  text: "Documentation Hub"
+  tagline: "Your comprehensive guide to building exceptional user experiences with our Vue.js-powered platform"
+  image:
+    src: /hero-image.svg
+    alt: Cepro.ai Documentation
   actions:
     - theme: brand
-      text: Get Started
+      text: 🚀 Get Started
       link: /09-development-guide
     - theme: alt
-      text: View Architecture
+      text: 🏗️ View Architecture
       link: /02-architecture
 
 features:
   - icon: ⚡
-    title: Modern Vue.js Stack
-    details: Built with Vue 3, TypeScript, Vite, and TailwindCSS for optimal performance and developer experience.
+    title: Lightning Fast Development
+    details: Built with Vue 3, TypeScript, Vite, and TailwindCSS for blazing-fast performance and exceptional developer experience with hot reload and modern tooling.
   
   - icon: 🎨
-    title: Component Library
-    details: Comprehensive reusable components with consistent design patterns and theming support.
+    title: Beautiful Component Library
+    details: Comprehensive collection of reusable UI components with consistent design patterns, accessibility features, and seamless theming support.
   
   - icon: 🔧
-    title: State Management
-    details: Robust state management with Pinia stores for scalable application architecture.
+    title: Smart State Management
+    details: Robust state management powered by Pinia stores with TypeScript support, enabling scalable application architecture and predictable data flow.
   
   - icon: 🌐
-    title: API Integration
-    details: Complete API integration patterns with Axios, authentication, and error handling.
+    title: Seamless API Integration
+    details: Complete API integration patterns with Axios, authentication flows, error handling, and real-time updates for modern web applications.
   
   - icon: 🎯
-    title: Best Practices
-    details: Industry-standard coding practices, testing patterns, and development workflows.
+    title: Industry Best Practices
+    details: Follow proven coding standards, comprehensive testing patterns, CI/CD workflows, and performance optimization techniques.
   
   - icon: 🚀
     title: Production Ready
-    details: Deployment guides, performance optimization, and scaling strategies for production environments.
+    details: Complete deployment guides, performance monitoring, scaling strategies, and production-grade configurations for enterprise environments.
 ---
 
-## Quick Navigation
+## 🎯 Quick Navigation
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-**For Developers Getting Started:**
-- 📖 [Application Overview](/01-application-overview) - Understand the application's purpose and features
-- 🛠️ [Development Setup](/09-development-guide) - Get your development environment ready
-- 🏗️ [Architecture Guide](/02-architecture) - Learn about the technical structure
+**New to Cepro.ai? Start here:**
+- � [Application Overview](/01-application-overview) - Discover what makes Cepro.ai unique
+- ⚙️ [Development Setup](/09-development-guide) - Get your environment ready in minutes  
+- �️ [Architecture Guide](/02-architecture) - Understand our technical foundation
 
 </div>
 
 <div class="info custom-block" style="padding-top: 8px">
 
-**For Component Development:**
-- 🧩 [Component Guide](/03-components) - Detailed component documentation
-- 🎨 [Theming System](/08-theming) - Learn about styling and themes
-- 🔄 [State Management](/04-state-management) - Understanding Pinia stores
+**🔧 Component Development:**
+- 🧩 [Component Guide](/03-components) - Master our component library
+- 🎨 [Theming System](/08-theming) - Customize and extend themes
+- 🔄 [State Management](/04-state-management) - Navigate Pinia stores like a pro
 
 </div>
 
 <div class="warning custom-block" style="padding-top: 8px">
 
-**For Integration & Deployment:**
-- 🔌 [API Integration](/06-api-integration) - Connect with backend services
-- 🌍 [Internationalization](/07-internationalization) - Multi-language support
-- 🚀 [Deployment Guide](/11-deployment) - Production deployment strategies
+**🚀 Integration & Deployment:**
+- 🔌 [API Integration](/06-api-integration) - Connect seamlessly with backend services
+- 🌍 [Internationalization](/07-internationalization) - Build for global audiences
+- � [Deployment Guide](/11-deployment) - Ship to production with confidence
 
 </div>
 
-## Technology Stack
+## 💻 Technology Stack
 
-| Technology | Purpose | Version |
-|------------|---------|---------|
-| **Vue.js** | Frontend Framework | 3.x |
-| **TypeScript** | Type Safety | Latest |
-| **Vite** | Build Tool | 5.x |
-| **TailwindCSS** | Styling Framework | 3.x |
-| **Pinia** | State Management | Latest |
-| **Vue Router** | Client-side Routing | 4.x |
-| **Axios** | HTTP Client | Latest |
-| **Vue I18n** | Internationalization | 9.x |
+| Technology | Purpose | Version | Why We Use It |
+|------------|---------|---------|---------------|
+| **Vue.js** | Frontend Framework | 3.x | Reactive, component-based architecture |
+| **TypeScript** | Type Safety | Latest | Enhanced developer experience & reliability |
+| **Vite** | Build Tool | 5.x | Lightning-fast development & optimized builds |
+| **TailwindCSS** | Styling Framework | 3.x | Utility-first CSS for rapid UI development |
+| **Pinia** | State Management | Latest | Intuitive, type-safe store management |
+| **Vue Router** | Client-side Routing | 4.x | Declarative routing with advanced features |
+| **Axios** | HTTP Client | Latest | Promise-based HTTP requests with interceptors |
+| **Vue I18n** | Internationalization | 9.x | Comprehensive i18n solution for Vue |
 
-## Project Structure
+## 📁 Project Structure
 
+```bash
+cepro-frontend/
+├── 📂 src/
+│   ├── 📂 components/     # 🧩 Reusable UI components
+│   ├── 📂 views/         # 📄 Page-level components  
+│   ├── 📂 stores/        # 🗃️ Pinia state stores
+│   ├── 📂 router/        # 🛣️ Vue Router configuration
+│   ├── 📂 services/      # 🔌 API & external services
+│   ├── 📂 composables/   # 🎣 Vue composition functions
+│   ├── 📂 utils/         # 🛠️ Helper utilities & functions
+│   ├── 📂 types/         # 📝 TypeScript type definitions
+│   └── 📂 assets/        # 🎨 Static assets & resources
+├── 📂 docs/              # 📚 This documentation site
+├── 📂 public/            # 🌐 Public static assets
+├── 📂 tests/             # 🧪 Test suites & specs
+└── ⚙️ config files       # 🔧 Build & tool configurations
 ```
-cepro/
-├── src/
-│   ├── components/     # Reusable components
-│   ├── views/         # Page components
-│   ├── stores/        # Pinia state stores
-│   ├── router/        # Vue Router configuration
-│   ├── services/      # API and external services
-│   ├── composables/   # Vue composition functions
-│   ├── utils/         # Utility functions
-│   └── assets/        # Static assets
-├── docs/              # This documentation
-├── public/            # Public assets
-└── ...config files
-```
 
-## Contributing
+## 🤝 Contributing to Documentation
 
-This documentation is maintained alongside the codebase. To contribute:
+We believe great documentation is a team effort! Here's how you can help:
 
-1. Update the relevant documentation files in the `/docs` folder
-2. Follow the existing documentation structure and style
-3. Test your changes locally with `npm run docs:dev`
-4. Submit a pull request with your improvements
+<div class="tip custom-block">
+
+**📝 Quick Contribution Steps:**
+1. 🍴 Fork the repository and create a feature branch
+2. 📝 Edit documentation files in the `/docs` folder  
+3. 🧪 Test locally with `npm run docs:dev`
+4. ✅ Ensure your changes follow our style guide
+5. 🚀 Submit a pull request with a clear description
+
+</div>
+
+### Documentation Standards
+
+- ✅ Use clear, concise language
+- 📸 Include relevant code examples  
+- 🔗 Add internal links for navigation
+- 📱 Ensure mobile-friendly formatting
+- 🎨 Follow established visual patterns
 
 ---
+
+### 🌟 Ready to Build Something Amazing?
+
+Whether you're contributing to Cepro.ai or building your own Vue.js application, this documentation will guide you every step of the way.
+
+**[🚀 Start Your Journey](/09-development-guide)**
+
 
 *Last updated: {{ new Date().toLocaleDateString() }}*
