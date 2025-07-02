@@ -1,0 +1,101 @@
+/* Custom theme styles for Cepro.ai documentation */
+
+:root {
+  /* Custom color variables */
+  --vp-c-brand: #3b82f6;
+  --vp-c-brand-light: #60a5fa;
+  --vp-c-brand-lighter: #93c5fd;
+  --vp-c-brand-dark: #2563eb;
+  --vp-c-brand-darker: #1d4ed8;
+}
+
+/* Custom homepage styling */
+.VPHome .VPHero .main {
+  max-width: 768px;
+}
+
+.VPHome .VPHero .tagline {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Enhanced feature cards */
+.VPFeature {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Code block improvements */
+.language-bash:before,
+.language-shell:before {
+  content: 'Terminal';
+}
+
+.language-vue:before {
+  content: 'Vue';
+}
+
+.language-ts:before,
+.language-typescript:before {
+  content: 'TypeScript';
+}
+
+.language-js:before,
+.language-javascript:before {
+  content: 'JavaScript';
+}
+
+/* Table styling */
+.vp-doc table {
+  margin: 20px 0;
+}
+
+.vp-doc th {
+  font-weight: 600;
+  background-color: var(--vp-c-bg-soft);
+}
+
+/* Navigation improvements */
+.VPSidebar .group + .group {
+  margin-top: 24px;
+}
+
+/* Custom alert styling */
+.custom-block.tip {
+  border-color: #42b883;
+}
+
+.custom-block.warning {
+  border-color: #e7c000;
+}
+
+.custom-block.danger {
+  border-color: #c00;
+}
+
+.custom-block.info {
+  border-color: #476be6;
+}
+
+/* Footer styling */
+.VPFooter {
+  background-color: var(--vp-c-bg-alt);
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .VPHome .VPHero .main {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .VPHome .VPFeatures {
+    padding: 0 20px;
+  }
+}
